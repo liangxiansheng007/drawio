@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T06:14:19.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.7" etag="za5mB1noxtsWb_4JOJeH" type="github"><diagram id="ciS-NbxetKR2zlC2_Ayn">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-31T06:50:52.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="W8vnxOxM-WPnugwT270q" version="20.2.7" type="github">
+  <diagram id="ciS-NbxetKR2zlC2_Ayn" name="第 1 页">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="317" width="570" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-2" value="Paas层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="342" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="447" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-4" value="Iaas层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="452" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-10" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.server_farm" vertex="1" parent="1">
+          <mxGeometry x="210" y="451" width="50" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-12" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.internet" vertex="1" parent="1">
+          <mxGeometry x="380" y="451.5" width="50" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-13" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.internet" vertex="1" parent="1">
+          <mxGeometry x="540" y="451" width="50" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-15" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="210" y="241.5" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="200" width="570" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-17" value="k8s集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-18" value="cluster" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-22" value="mysql cluster" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_Database_for_MySQL_servers.svg;" vertex="1" parent="1">
+          <mxGeometry x="552" y="322" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-23" value="container" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Container_Instances.svg;" vertex="1" parent="1">
+          <mxGeometry x="360" y="213.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-24" value="redis" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_Cache_for_Redis.svg;" vertex="1" parent="1">
+          <mxGeometry x="414" y="322" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-26" value="vm" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" vertex="1" parent="1">
+          <mxGeometry x="200" y="326" width="50" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-27" value="vm" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" vertex="1" parent="1">
+          <mxGeometry x="310" y="326" width="50" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-29" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="220" y="400" width="30" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-30" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="390" y="400" width="30" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-31" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="550" y="400" width="30" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ChhRvCxDmZYDKPqLYOOz-32" value="container" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Container_Instances.svg;" vertex="1" parent="1">
+          <mxGeometry x="540" y="213.5" width="50" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
