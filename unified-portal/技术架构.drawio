@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T05:57:05.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="OjGPt0qq_a6H_s1APiXq" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-18T06:12:21.226Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="WJWjK2AtOGI0j6XR3v-e" version="21.3.2" type="github">
   <diagram name="第 1 页" id="v9JVnYjCRoWVwld-32vC">
-    <mxGraphModel dx="1434" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,6 +105,30 @@
         </mxCell>
         <mxCell id="UmApkOXSvORJLhCEbSQ5-35" value="代理集成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="555" y="323" width="72" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UmApkOXSvORJLhCEbSQ5-36" value="" style="rounded=0;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;dashPattern=1 1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="648" y="281" width="110.33" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="UmApkOXSvORJLhCEbSQ5-37" value="安全运维保障" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="660" y="287" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UmApkOXSvORJLhCEbSQ5-38" value="日志" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="658" y="323" width="90" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="UmApkOXSvORJLhCEbSQ5-39" value="审计" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="658" y="370" width="90" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="UmApkOXSvORJLhCEbSQ5-40" value="追踪" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="659" y="415.5" width="90" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="UmApkOXSvORJLhCEbSQ5-41" value="预警" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="462" width="90" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="UmApkOXSvORJLhCEbSQ5-42" value="熔断" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="660" y="511" width="90" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="UmApkOXSvORJLhCEbSQ5-43" value="降级" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660.16" y="561" width="90" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
