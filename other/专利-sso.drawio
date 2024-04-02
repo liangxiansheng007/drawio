@@ -1,0 +1,196 @@
+<mxfile host="app.diagrams.net" modified="2024-04-02T09:37:05.481Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="1kUz1QI-PjuxOqoWA48W" version="24.2.1" type="github">
+  <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="77e6c97f196da883-1" value="&lt;font style=&quot;font-weight: normal; font-size: 15px;&quot;&gt;单点集成代理流程&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="70" y="40" width="640" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-3" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;浏览器&lt;/font&gt;&lt;/span&gt;" style="swimlane;html=1;startSize=20;swimlaneFillColor=#E6E6E6;fillColor=#E6E6E6;fontColor=#333333;strokeColor=#666666;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry y="20" width="160" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-9" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;访问成功&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="20" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-16" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;302 跳转至单点登录A&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="20" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-27" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;携带临时码 回调应用系统&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="20" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-32" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; background-color: rgb(255, 255, 255);&quot;&gt;携带服务标识、&lt;/span&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;会话标识&lt;/font&gt;&lt;span style=&quot;font-family: Helvetica; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;，302跳转至单点登录B&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="20" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-44" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;携带票据 回调单点登录A&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="20" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" parent="77e6c97f196da883-3" source="Gtd-e73TPwi6iVOvgfYK-54" target="Gtd-e73TPwi6iVOvgfYK-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-54" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;单点登录B系统登录&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="20" y="480" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-58" value="&lt;span style=&quot;font-family: Helvetica;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;http://www.app.com&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="20" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-4" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;应用系统&lt;/font&gt;&lt;/span&gt;" style="swimlane;html=1;startSize=20;fillColor=#FFFFFF;swimlaneFillColor=#FFFFFF;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry x="160" y="20" width="160" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-7" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;鉴权&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-4" vertex="1">
+          <mxGeometry x="40" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-30" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;本地会话创建&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-4" vertex="1">
+          <mxGeometry x="20" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-5" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;单点登录A&lt;/font&gt;&lt;/span&gt;" style="swimlane;html=1;startSize=20;swimlaneFillColor=#E6E6E6;fillColor=#E6E6E6;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry x="320" y="20" width="160" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-23" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;是否已登录&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#E6E6E6;" parent="77e6c97f196da883-5" vertex="1">
+          <mxGeometry x="40" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-47" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;基于票据、服务标识 获取用户id&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-5" vertex="1">
+          <mxGeometry x="20" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-51" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;基于用户标识、会话标识回调&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-5" vertex="1">
+          <mxGeometry x="20" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;" parent="77e6c97f196da883-1" target="Gtd-e73TPwi6iVOvgfYK-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="80" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="190" y="80" />
+              <mxPoint x="190" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;" parent="77e6c97f196da883-1" source="Gtd-e73TPwi6iVOvgfYK-7" target="Gtd-e73TPwi6iVOvgfYK-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-15" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;通过&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontFamily=Helvetica;" parent="Gtd-e73TPwi6iVOvgfYK-10" vertex="1" connectable="0">
+          <mxGeometry x="0.24" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;" parent="77e6c97f196da883-1" source="Gtd-e73TPwi6iVOvgfYK-7" target="Gtd-e73TPwi6iVOvgfYK-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-18" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;不通过&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontFamily=Helvetica;" parent="Gtd-e73TPwi6iVOvgfYK-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.2947" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;" parent="77e6c97f196da883-1" source="Gtd-e73TPwi6iVOvgfYK-16" target="Gtd-e73TPwi6iVOvgfYK-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;" parent="77e6c97f196da883-1" source="Gtd-e73TPwi6iVOvgfYK-23" target="Gtd-e73TPwi6iVOvgfYK-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-29" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;是&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontFamily=Helvetica;" parent="Gtd-e73TPwi6iVOvgfYK-28" vertex="1" connectable="0">
+          <mxGeometry x="-0.2185" y="1" relative="1" as="geometry">
+            <mxPoint x="-78" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;" parent="77e6c97f196da883-1" source="Gtd-e73TPwi6iVOvgfYK-27" target="Gtd-e73TPwi6iVOvgfYK-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;" parent="77e6c97f196da883-1" source="Gtd-e73TPwi6iVOvgfYK-23" target="Gtd-e73TPwi6iVOvgfYK-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-42" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;否&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontFamily=Helvetica;" parent="Gtd-e73TPwi6iVOvgfYK-33" vertex="1" connectable="0">
+          <mxGeometry x="-0.4308" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="77e6c97f196da883-1" source="Gtd-e73TPwi6iVOvgfYK-32" target="Gtd-e73TPwi6iVOvgfYK-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="77e6c97f196da883-1" source="Gtd-e73TPwi6iVOvgfYK-43" target="Gtd-e73TPwi6iVOvgfYK-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="691" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="590" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-46" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;是&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontFamily=Helvetica;" parent="Gtd-e73TPwi6iVOvgfYK-45" vertex="1" connectable="0">
+          <mxGeometry x="-0.0636" y="4" relative="1" as="geometry">
+            <mxPoint x="131" y="-74" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;" parent="77e6c97f196da883-1" source="Gtd-e73TPwi6iVOvgfYK-44" target="Gtd-e73TPwi6iVOvgfYK-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;" parent="77e6c97f196da883-1" source="Gtd-e73TPwi6iVOvgfYK-47" target="Gtd-e73TPwi6iVOvgfYK-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#FF9999;" parent="77e6c97f196da883-1" source="Gtd-e73TPwi6iVOvgfYK-43" target="Gtd-e73TPwi6iVOvgfYK-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-56" value="&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#000000&quot;&gt;否&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontFamily=Helvetica;fontColor=#FF9999;" parent="Gtd-e73TPwi6iVOvgfYK-55" vertex="1" connectable="0">
+          <mxGeometry x="-0.1793" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;" parent="77e6c97f196da883-1" source="Gtd-e73TPwi6iVOvgfYK-49" target="Gtd-e73TPwi6iVOvgfYK-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-53" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#FF9999;curved=1;" parent="77e6c97f196da883-1" source="Gtd-e73TPwi6iVOvgfYK-51" target="Gtd-e73TPwi6iVOvgfYK-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="416" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-20" y="780" />
+              <mxPoint x="-20" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-25" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;单点登录B&lt;/font&gt;&lt;/span&gt;" style="swimlane;html=1;startSize=20;fillColor=#FFFFFF;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry x="480" y="20" width="160" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-43" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;是否已登录&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#FFFFFF;" parent="Gtd-e73TPwi6iVOvgfYK-25" vertex="1">
+          <mxGeometry x="30" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtd-e73TPwi6iVOvgfYK-49" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;校验票据等，返回用户id&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" parent="Gtd-e73TPwi6iVOvgfYK-25" vertex="1">
+          <mxGeometry x="10" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
